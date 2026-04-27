@@ -1,5 +1,6 @@
-package com.harish.java;
+package com.harish.java.collections;
 
+import com.harish.java.collections.ShoppingCart;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -92,4 +93,3 @@ class ShoppingCartTest {
                 () -> cart.addItem("Bad qty", 1.0, -2, ShoppingCart.Category.FOOD));
     }
 }
-

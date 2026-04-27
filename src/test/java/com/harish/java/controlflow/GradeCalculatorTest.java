@@ -1,5 +1,6 @@
-package com.harish.java;
+package com.harish.java.controlflow;
 
+import com.harish.java.controlflow.GradeCalculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -84,4 +85,3 @@ class GradeCalculatorTest {
         assertFalse(calculator.hasPassed(new int[]{50, 49, 100}));
     }
 }
-

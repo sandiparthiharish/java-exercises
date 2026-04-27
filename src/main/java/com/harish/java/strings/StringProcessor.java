@@ -1,4 +1,4 @@
-package com.harish.java;
+package com.harish.java.strings;
 
 /**
  * EXERCISE 3 — Medium

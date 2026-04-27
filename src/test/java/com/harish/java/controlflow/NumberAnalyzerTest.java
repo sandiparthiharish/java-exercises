@@ -1,5 +1,6 @@
-package com.harish.java;
+package com.harish.java.controlflow;
 
+import com.harish.java.controlflow.NumberAnalyzer;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

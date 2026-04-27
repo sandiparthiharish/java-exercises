@@ -1,4 +1,4 @@
-package com.harish.java;
+package com.harish.java.controlflow;
 
 /**
  * EXERCISE 1 — Medium

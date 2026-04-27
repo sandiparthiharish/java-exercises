@@ -1,5 +1,6 @@
-package com.harish.java;
+package com.harish.java.strings;
 
+import com.harish.java.strings.StringProcessor;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -58,4 +59,3 @@ class StringProcessorTest {
         assertEquals(1, processor.countChar("Banana", 'B'));
     }
 }
-
