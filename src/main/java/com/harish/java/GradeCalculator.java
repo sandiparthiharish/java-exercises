@@ -19,7 +19,6 @@ package com.harish.java;
 public class GradeCalculator {
 
     // These constants are PRIVATE — only this class can see them.
-    // External code must go through the public methods below.
     private static final int A_MIN = 90;
     private static final int B_MIN = 80;
     private static final int C_MIN = 70;
