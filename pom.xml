@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.harish</groupId>
+    <artifactId>java-exercises</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>Java Exercises</name>
+    <description>Ecommerce_Practice</description>
+    <scm>
+        <tag>HEAD</tag>
+        <connection>scm:git:${git.repo.url}</connection>
+        <developerConnection>scm:git:${git.repo.url}</developerConnection>
+    </scm>
+
+    <properties>
+        <java.version>21</java.version>
+        <git.repo.url>https://github.com/sandiparthiharish/java-exercises.git</git.repo.url>
+    </properties>
+
+    <dependencies>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>default-compile</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>default-testCompile</id>
+                        <phase>test-compile</phase>
+                        <goals>
+                            <goal>testCompile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>
